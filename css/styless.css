@@ -1,0 +1,107 @@
+@font-face {
+  font-family: حسن\الجزائر;
+  src: url("../font/حسن\ الجزائر.TTF");
+}
+@font-face {
+  font-family: حسن\الجزائر\عريض;
+  src: url("../font/حسن\ الجزائر\ عريض.TTF");
+}
+@font-face {
+  font-family: حسن\الجزائر\رفيغ;
+  src: url("../font/حسن\ الجزائر\ رفيغ.TTF");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+  background: url(../img/5.png);
+  width: 100%;
+} */
+.aboutus-hero-section {
+  background-image: url(../img/5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150vh;
+  background-position: center;
+}
+.logo img {
+  width: 7rem;
+  margin-top: 1rem;
+  position: absolute;
+  right: 174px;
+
+}
+.bettary {
+  position: absolute;
+  top: 8rem;
+  left: 9rem;
+}
+.paragraph1 {
+  padding: 0.1rem;
+  border-radius: 6px;
+  font-size: 40px;
+  font-family: حسن\الجزائر;
+  background-color: rgb(255, 170, 0);
+  font-weight: bold;
+}
+.paragraph2 {
+  padding: 0.1rem;
+  border-radius: 6px;
+  font-size:40px;
+  font-family: حسن\الجزائر;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+.bysicl {
+  position: absolute;
+  top: 24rem;
+  right: 8.4rem;
+}
+.paragraph3 {
+  font-size: 18px;
+  font-family: حسن\الجزائر;
+  font-weight: bold;
+  text-align: end;
+}
+.content {
+  position: absolute;
+  top: 41rem;
+}
+.paragraph4 {
+  /* margin-top: 42rem; */
+  padding: 0.1rem;
+  border-radius: 6px;
+  font-size: 24px;
+  font-family: حسن\الجزائر\رفيغ;
+  background-color: rgb(255, 170, 0);
+  font-weight: bold;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+top: 57rem;
+}
+.para5 {
+  /* margin-top: 42rem; */
+  font-size: 24px;
+  font-family: حسن\الجزائر\رفيغ;
+  padding: 0rem 5rem;
+}
+.para6 {
+  /* margin-top: 42rem; */
+  font-size: 24px;
+  font-family: حسن\الجزائر\رفيغ;
+}
+.bik {
+  position: absolute;
+  top: 4rem;
+  right: -57px;
+}
+.bik img{
+  width: 76rem;
+}
+

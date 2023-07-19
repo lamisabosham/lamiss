@@ -1,0 +1,425 @@
+@media (max-width: 400px) {
+  .aboutus-hero-section {
+    background-image: url(../img/5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+  }
+  .bettary {
+    position: absolute;
+    top: 7rem;
+    left: 2rem;
+  }
+  .logo img {
+    width: 4rem;
+    margin-top: 1rem;
+    position: absolute;
+    right: 3px;
+  }
+  .paragraph1 {
+    padding: 0.1rem;
+    border-radius: 6px;
+
+    font-size: 9px;
+    width: 3rem;
+
+    font-family: حسن\الجزائر;
+    background-color: rgb(255, 170, 0);
+    font-weight: bold;
+  }
+  .paragraph2 {
+    padding: 0.1rem;
+    border-radius: 6px;
+    font-size: 9px;
+    font-family: حسن\الجزائر;
+    letter-spacing: 0px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .bik img {
+    width: 26rem;
+  }
+
+  .contactus .contactus-content .contactus-box {
+    background-color: none;
+    border-radius: 1rem;
+    width: 30%;
+    position: absolute;
+    top: 5rem;
+    right: -0.4rem;
+    right: -1.4rem;
+    margin: auto;
+  }
+  .bik {
+    position: absolute;
+    top: 7rem;
+    right: -55px;
+  }
+  .contactus
+    .contactus-content
+    .contactus-box
+    .contactus-form
+    input[type="email"],
+  textarea {
+    font-family: var(--Regular-fonts);
+    font-size: 1.2rem;
+    border: 1px solid rgb(87, 87, 87);
+    background-color: transparent;
+    color: black;
+    border-radius: 0.3rem;
+    padding: 0rem;
+    margin-bottom: 0.2rem;
+    resize: none;
+
+    width: 5rem;
+    height: 2rem;
+  }
+  .contactus
+    .contactus-content
+    .contactus-box
+    .contactus-form
+    input[type="submit"] {
+    font-family: var(--Regular-fonts);
+    font-size: 0.7rem;
+    border: none;
+    background-color: #a7a7a7;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0rem;
+    margin: 0;
+    width: 5rem;
+    height: 1.2rem;
+  }
+  .bysicl {
+    position: absolute;
+    top: 17rem;
+  }
+  .paragraph3 {
+    font-size: 9px;
+    font-family: حسن\الجزائر;
+    font-weight: bold;
+  }
+  .content {
+    position: absolute;
+    top: 19rem;
+  }
+  footer {
+    display: block;
+    justify-content: space-between;
+    position: absolute;
+    top:34rem;
+  }
+  .para5 {
+
+    font-size: 12px;
+    font-family: حسن\الجزائر\رفيغ;
+    padding:2rem 0rem;
+  }
+
+  .para6 {
+    font-size: 12px;
+    font-family: حسن\الجزائر\رفيغ;
+  }
+  .progress-step {
+    width: 1.1875rem;
+    height: 1.1875rem;
+    background-color: #dcdcdc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    align-items: center;
+    font-family: var(--Regular-fonts);
+  }
+  .progressbar {
+    position: relative;
+    display: flex;
+    right: 28px;
+    justify-content: space-between;
+    counter-reset: step;
+    margin: 2rem auto 4rem auto;
+    width: 82%;
+  }
+  .paragraph4 {
+    /* margin-top: 24rem; */
+    padding: 0.1rem;
+    width: 6rem;
+    border-radius: 6px;
+    font-size: 24px;
+    font-family: حسن\الجزائر\رفيغ;
+    background-color: rgb(255, 170, 0);
+    font-weight: bold;
+  }
+}
+@media (max-width: 767px) {
+  .content-hero .title-hero {
+    font-size: 2rem;
+  }
+  .content-hero .explain-hero {
+    font-size: 1rem;
+  }
+  .title-sec2 {
+    font-size: 1.2rem;
+  }
+  .card-content .resturant-name {
+    font-size: 1rem;
+  }
+  .details-part .details-link {
+    padding: 0.4rem 1rem;
+  }
+  .card-box {
+    margin: 1rem 0rem;
+  }
+  .boxes-container .sort {
+    display: none;
+  }
+  .comment-form {
+    flex-direction: column;
+  }
+  .common-table {
+    overflow-x: scroll;
+  }
+  .common-table table {
+    width: 800px;
+  }
+  .comment-form .send-comment-btn {
+    width: 60%;
+    margin: auto;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 0.3rem 0rem;
+  }
+  .comment-input {
+    font-size: 1rem;
+    width: 100% !important;
+    padding: 0.6rem 1.4rem;
+  }
+  .comment-input::placeholder {
+    font-size: 1rem;
+  }
+  /* contact-us part */
+  /* .contactus .contactus-content .contactus-box {
+    width: 85%;
+  } */
+  .contactus .contactus-content .contactus-box .contactus-title {
+    font-size: 1.5rem;
+  }
+  .contactus .contactus-content .contactus-box .contactus-form label {
+    font-size: 1rem;
+  }
+  /* about-us part */
+  .definition-sec {
+    margin: 3rem 0 !important;
+  }
+  .definition-sec .definition-part1 .part-title {
+    font-size: 1.5rem;
+  }
+  .whatusdo-sec {
+    flex-direction: column-reverse !important;
+  }
+  /* favor-questoin-section */
+
+  .overlay .content-favor-section {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  .overlay .content-favor-section .title-favor-sectoin {
+    font-family: var(--bold-fonts);
+    font-size: 1.5rem;
+  }
+  .overlay .content-favor-section .explain-favor-sectoin {
+    font-family: var(--Regular-fonts);
+    font-size: 1rem;
+    width: 100% !important;
+  }
+  .testemonial-sec {
+    margin: 3rem 0;
+  }
+  .navbar-nav .signup-btn {
+    width: 40%;
+  }
+  /* hero-section */
+  .hero-content .hero-title {
+    font-size: 1.5rem;
+  }
+  .hero-content .explain-hero {
+    font-size: 1rem;
+    margin: 1rem 0 !important;
+  }
+  .content-page .CTA-btn {
+    font-size: 1rem;
+  }
+  /* statistic-seciton */
+  .statistic-section .statistic-content {
+    flex-direction: column !important;
+  }
+  .statistic-column .statistic-number {
+    font-size: 1rem;
+  }
+  .statistic-column .statistic-text {
+    font-size: 1rem;
+  }
+  .content-page .section-title {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  .content-page .section-explain {
+    font-size: 1rem;
+  }
+  .services-cards {
+    gap: 1rem;
+  }
+  /* about-us section */
+  .about-us .about-us-title {
+    font-family: var(--bold-fonts);
+    font-size: 1.5rem;
+    color: #000;
+  }
+  .about-us .about-us-explain {
+    font-family: var(--Regular-fonts);
+    font-size: 1rem;
+    color: #707070;
+    text-align: start;
+    line-height: 1.8;
+  }
+  /* testemonial section */
+  .content-page .review-box {
+    padding: 1rem;
+  }
+  .content-page .mySwiper .swiper-sliders {
+    width: 310px !important;
+  }
+  .review-box .customer-name {
+    font-size: 1rem;
+  }
+  .review-box .comment {
+    font-size: 0.7rem;
+    margin-top: 1rem;
+  }
+  .review .review-stars {
+    font-size: 1rem;
+  }
+  .review .percent-review {
+    font-size: 1rem;
+  }
+  .review-box {
+    width: 100% !important;
+  }
+  .review-box .comment-container {
+    width: 100%;
+  }
+  /* contact-us secotin */
+  .content-page .contact-us {
+    width: 90% !important;
+  }
+  .contact-us .contact-us-title {
+    font-size: 1.2rem;
+  }
+  .contact-us .contact-us-explain {
+    font-size: 1rem;
+  }
+  .contact-us form {
+    font-size: 1rem;
+  }
+  .contact-us input::placeholder {
+    font-size: 1rem;
+  }
+  .contact-us input {
+    padding: 1rem !important;
+  }
+  .contact-us textarea {
+    padding: 1rem !important;
+  }
+  .contact-us textarea::placeholder {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .box {
+    margin: 1rem 0rem;
+  }
+  .row-2 {
+    margin-bottom: 0px !important;
+  }
+  .navbar-nav .signup-btn {
+    width: 30%;
+  }
+  .statistic-section .statistic-content {
+    flex-direction: column !important;
+  }
+  /* testemonial section */
+  .content-page .review-box {
+    padding: 1rem;
+  }
+  .content-page .mySwiper .swiper-sliders {
+    width: 350px !important;
+  }
+  .review-box .customer-name {
+    font-size: 1rem;
+  }
+  .review-box .comment {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .review .review-stars {
+    font-size: 1rem;
+  }
+  .review .percent-review {
+    font-size: 1rem;
+  }
+  .review-box .comment-container {
+    width: 100%;
+  }
+  .review-box {
+    width: 100% !important;
+  }
+  .review-box .comment-container {
+    width: 100%;
+  }
+  /* contact-us secotin */
+  .content-page .contact-us {
+    width: 80% !important;
+  }
+  .contact-us .contact-us-title {
+    font-size: 1.7rem;
+  }
+  .contact-us .contact-us-explain {
+    font-size: 1.5rem;
+  }
+  .contact-us form {
+    font-size: 1rem;
+  }
+  .contact-us input::placeholder {
+    font-size: 1rem;
+  }
+  .contact-us input {
+    padding: 1rem !important;
+  }
+  .contact-us textarea {
+    padding: 1rem !important;
+  }
+  .contact-us textarea::placeholder {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 900px) {
+  .aboutus-hero-section {
+    background-image: url(../img/5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160vh;
+    background-position: center;
+  }
+  .bettary {
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 17rem;
+  }
+}
